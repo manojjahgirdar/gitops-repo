@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: basic-express-app-route
+spec:
+  path: /
+  to:
+    kind: Service
+    name: basic-express-app-service
+  port:
+    targetPort: 8080

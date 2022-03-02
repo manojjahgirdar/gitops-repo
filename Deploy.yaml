@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: express
+  name: basic-express-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: express
+  template:
+    metadata:
+      labels:
+        app: express
+    spec:
+      containers:
+      - image: us.icr.io/dev-manoj-gitops/gitops:v1.0
+        name: ddc-argocd-demo
