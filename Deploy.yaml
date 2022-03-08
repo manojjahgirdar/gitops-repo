@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - image: manojjahgirdar/gitops-demo:v1.0
-        name: ddc-argocd-demo
+        name: gitops-demo
