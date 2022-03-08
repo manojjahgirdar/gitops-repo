@@ -17,3 +17,5 @@ spec:
       containers:
       - image: manojjahgirdar/gitops-demo:v1.0
         name: gitops-demo
+        ports:
+        - containerPort: 3000
