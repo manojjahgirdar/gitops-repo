@@ -8,4 +8,4 @@ spec:
     kind: Service
     name: basic-express-app-service
   port:
-    targetPort: 8080
+    targetPort: 3000

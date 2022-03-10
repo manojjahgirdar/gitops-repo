@@ -16,4 +16,6 @@ spec:
     spec:
       containers:
       - image: manojjahgirdar/gitops-lifecycle-tekton:vProd
-        name: ddc-argocd-demo
+        name: gitops-demo
+        ports:
+        - containerPort: 3000

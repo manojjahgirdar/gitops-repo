@@ -4,10 +4,10 @@ metadata:
   name: basic-express-app-service
 spec:
   selector:
-    app: flask
+    app: express
   ports:
   - protocol: TCP
     port: 3000
     targetPort: 3000
-    nodePort: 30000
-  type: LoadBalancer
+    nodePort: 31000
+  type: NodePort
