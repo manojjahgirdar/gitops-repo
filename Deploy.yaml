@@ -15,5 +15,5 @@ spec:
         app: express
     spec:
       containers:
-      - image: us.icr.io/dev-manoj-gitops/gitops:v1.0
+      - image: manojjahgirdar/gitops-lifecycle-tekton:v1.0
         name: ddc-argocd-demo
