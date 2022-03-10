@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: python-flask-app-role-binding
-  namespace: prod
+  namespace: staging
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
