@@ -15,7 +15,7 @@ spec:
         app: express
     spec:
       containers:
-      - image: manojjahgirdar/gitops-lifecycle-tekton:vStage
+      - image: manojjahgirdar/gitops-lifecycle-tekton:vStg
         name: gitops-demo
         ports:
         - containerPort: 3000
